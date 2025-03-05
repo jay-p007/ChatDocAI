@@ -1,0 +1,14 @@
+# Ignore environment files
+.env
+
+# Ignore cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Chainlit and Chroma DB files
+.chainlit/
+chroma_db/
+
+# Ignore VS Code settings (optional)
+.vscode/

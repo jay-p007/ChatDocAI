@@ -1,0 +1,8 @@
+chainlit
+google-generativeai
+python-dotenv
+langchain
+langchain-google-genai
+chromadb
+pdfplumber
+python-docx
