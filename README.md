@@ -69,7 +69,6 @@ ChatDocAI/
 │-- chainlit.md          # Chainlit configuration file
 │-- README.md            # Documentation
 │-- .env                 # Environment variables (not committed)
-│-- chroma_db/           # Vector database storage
 ```
 
 ---
