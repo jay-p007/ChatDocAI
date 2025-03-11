@@ -49,7 +49,6 @@ async def main(message: cl.Message):
             texts, metadatas = [], []
 
             for file in files:
-                file_extension = os.path.splitext(file.name)[1].lower()
 
                 # 📌 Improved MIME Type Detection
                 file_type = file.mime if file.mime and file.mime != "file" else mimetypes.guess_type(file.name)[0] or "unknown"
@@ -72,7 +71,6 @@ async def main(message: cl.Message):
                         "mime_type": "image/jpeg",
                         "data": image_bytes
                     }
-                    # cl.user_session.set("uploaded_image_data", uploaded_image_data)
 
                     # 🔹 Extract text from image using Gemini Vision API
                     response = model.generate_content(["Extract information from this image:", uploaded_image_data])
