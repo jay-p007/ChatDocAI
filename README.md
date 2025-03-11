@@ -66,7 +66,6 @@ The ChatDocAI chatbot should now be running locally on **http://localhost:8000**
 ```
 ChatDocAI/
 │-- app.py               # Main application file
-│-- utils.py             # Helper functions
 │-- requirements.txt     # Required dependencies
 │-- chainlit.md          # Chainlit configuration file
 │-- README.md            # Documentation
