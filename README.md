@@ -33,7 +33,6 @@ cd ChatDocAI
 ### **2️⃣ Create and Activate a Virtual Environment**
 ```bash
 # On Windows
-type nul > .env  # (Create an empty .env file if needed)
 python -m venv venv
 venv\Scripts\activate
 
