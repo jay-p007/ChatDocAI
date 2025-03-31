@@ -22,7 +22,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     raise ValueError("⚠️ GEMINI_API_KEY not found. Please set it in a .env file.")
 
-genai.configure(api_key=GEMINI_API_KEY)
+# genai.configure(api_key=GEMINI_API_KEY)
 
 # Initialize Gemini Model
 model_name = "gemini-1.5-flash"
