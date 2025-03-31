@@ -16,7 +16,7 @@ from docx import Document
 os.environ["CHAINLIT_NO_AUTO_LAUNCH"] = "true"
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not GEMINI_API_KEY:
